@@ -1,1 +1,2 @@
 node_modules/ # Create or update .gitignore
+.vercel

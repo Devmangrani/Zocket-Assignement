@@ -1,21 +1,23 @@
-# AI-Powered Task Management System
+# AI-Powered Task Management System 🚀
 
 **Created by:** Dev Mangrani
 
+---
+
 ## Full-Stack Rapid Development Challenge
 
-### Time: 4 Hours
+### ⏰ Time: 4 Hours
 
-### Focus Areas:
+### 🎯 Focus Areas:
 
-- Backend in Golang (Gin/Fiber)
-- Frontend in TypeScript (Next.js + Tailwind CSS)
-- AI Utilization (Copilot, ChatGPT, AutoGPT, etc.)
-- High Agency & Ownership
+- **Backend**: Golang (Gin/Fiber)
+- **Frontend**: TypeScript (Next.js + Tailwind CSS)
+- **AI Utilization**: Copilot, ChatGPT, AutoGPT, etc.
+- **High Agency & Ownership**
 
-### Challenge:
+### 🛠 Challenge:
 
-Develop a real-time task management system with:
+Develop a **real-time task management system** with:
 
 - User authentication (JWT-based)
 - Task creation, assignment, and tracking
@@ -23,60 +25,66 @@ Develop a real-time task management system with:
 - Real-time updates (WebSockets)
 - Deployed on cloud platforms (Vercel/Fly.io/Render)
 
-### Tech Requirements:
+---
 
-#### Backend (Golang)
+## 📋 Tech Requirements:
 
-- Golang (Gin/Fiber) – REST API development
-- JWT authentication for user sessions
-- PostgreSQL or MongoDB as the database
-- Goroutines & WebSockets for real-time task updates
-- AI-powered smart task breakdowns (OpenAI/Gemini API)
-- Deployment on Render/Fly.io
+### Backend (Golang)
 
-#### Frontend (TypeScript + Next.js + Tailwind)
+- **Golang (Gin/Fiber)** – REST API development
+- **JWT authentication** for user sessions
+- **PostgreSQL or MongoDB** as the database
+- **Goroutines & WebSockets** for real-time task updates
+- **AI-powered smart task breakdowns** (OpenAI/Gemini API)
+- **Deployment** on Render/Fly.io
 
-- Next.js (App Router preferred) with Tailwind CSS
-- Task dashboard with real-time updates
-- JWT authentication (client-side handling)
-- AI-powered chat for task recommendations
-- Deployment on Vercel
+### Frontend (TypeScript + Next.js + Tailwind)
+
+- **Next.js** (App Router preferred) with Tailwind CSS
+- **Task dashboard** with real-time updates
+- **JWT authentication** (client-side handling)
+- **AI-powered chat** for task recommendations
+- **Deployment** on Vercel
 
 ### Bonus (Go Beyond!)
 
-- Docker & Kubernetes for containerized deployment
-- Slack/Discord bot integration
-- Automate AI task assignment based on priority
-- Leverage AI tools for rapid development
+- **Docker & Kubernetes** for containerized deployment
+- **Slack/Discord bot integration**
+- **Automate AI task assignment** based on priority
+- **Leverage AI tools** for rapid development
 
-### Submission Guidelines
+---
+
+## 📜 Submission Guidelines
 
 - GitHub Repository with README and live demo link
 - Backend & Frontend Deployed URLs
 - 5-minute Video Demo - Explain your approach
 - Documentation - How AI tools helped
 
-### Evaluation Criteria
+### 🏆 Evaluation Criteria
 
 - **Speed (50%)** - How much can you ship in 4 hours?
 - **Code Quality (20%)** - Clean, modular, and scalable
 - **AI Utilization (20%)** - How effectively AI was leveraged
 - **Deployment (10%)** - Working, hosted product
 
-### The Goal
+### 🎯 The Goal
 
 We're hiring high-agency engineers who take ownership, ship fast, and use AI effectively. Don't just code—get it DONE.
 
 ---
 
-## Features
+## 🌟 Features
 
 - **User Authentication**: Secure login and registration using JWT.
 - **Task Management**: Create, assign, and track tasks in real-time.
 - **AI Suggestions**: Get AI-powered task suggestions to enhance productivity.
 - **Real-Time Updates**: Receive updates on task changes via WebSockets.
 
-## Getting Started
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -118,15 +126,12 @@ We're hiring high-agency engineers who take ownership, ship fast, and use AI eff
 
 Open your browser and navigate to:
 
-# **Real-Time Task Management System** 🚀
-
-🔗 **Live Demo**: [Task Management System](https://real-time-task-management-system-vzcn.onrender.com)
-
-🔗 **Backend API**: [API Base URL](https://real-time-task-management-system-backend.onrender.com)
+- **Frontend**: [Zocket Assignment Frontend](https://zocket-assignement-front-end.vercel.app/login)
+- **Backend**: [Zocket Assignment Backend](https://zocket-assignement-back-end.vercel.app/login)
 
 ---
 
-## **📌 Project Overview**
+## 📌 Project Overview
 
 This is a **real-time task management system** that allows users to:  
 ✅ **Register & Log in** securely (JWT authentication)  
@@ -137,35 +142,35 @@ This is a **real-time task management system** that allows users to:
 
 ---
 
-## **🛠 Tech Stack**
+## 🛠 Tech Stack
 
-### **Frontend**
+### Frontend
 
 - **React.js** (TypeScript)
 - **Tailwind CSS**
 - **Axios** (API Requests)
 
-### **Backend**
+### Backend
 
-- **I have Created backend in: Golang as well as Node.js + Express.js**
-- **MongoDB + Mongoose**
+- **Golang** (Gin/Fiber)
+- **MongoDB** (or PostgreSQL)
 - **JWT Authentication**
-- **Socket.io (WebSockets for real-time updates)**
+- **WebSockets** for real-time updates
 
-### **Deployment**
+### Deployment
 
 - **Frontend**: [Render](https://real-time-task-management-system-vzcn.onrender.com)
 - **Backend**: [Render](https://real-time-task-management-system-backend.onrender.com)
 
 ---
 
-# API Documentation
+## 📚 API Documentation
 
-## 🚀 API Endpoints
+### 🚀 API Endpoints
 
-### 🔹 Authentication API
+#### 🔹 Authentication API
 
-#### 1️⃣ User Registration
+##### 1️⃣ User Registration
 
 **Endpoint:** `POST /api/auth/register`
 
@@ -187,7 +192,7 @@ This is a **real-time task management system** that allows users to:
 }
 ```
 
-#### 2️⃣ User Login
+##### 2️⃣ User Login
 
 **Endpoint:** `POST /api/auth/login`
 
@@ -215,9 +220,9 @@ This is a **real-time task management system** that allows users to:
 
 📌 **Important:** Store the `token` for authenticated requests!
 
-### 🔹 Task Management API
+#### 🔹 Task Management API
 
-#### 3️⃣ Create Task (Requires Authentication)
+##### 3️⃣ Create Task (Requires Authentication)
 
 **Endpoint:** `POST /api/tasks`
 
@@ -251,7 +256,7 @@ This is a **real-time task management system** that allows users to:
 }
 ```
 
-#### 4️⃣ Get All Tasks (Requires Authentication)
+##### 4️⃣ Get All Tasks (Requires Authentication)
 
 **Endpoint:** `GET /api/tasks`
 
@@ -278,7 +283,7 @@ This is a **real-time task management system** that allows users to:
 ]
 ```
 
-#### 5️⃣ Update Task Status (Requires Authentication)
+##### 5️⃣ Update Task Status (Requires Authentication)
 
 **Endpoint:** `PUT /api/tasks/{taskId}`
 
@@ -314,7 +319,7 @@ This is a **real-time task management system** that allows users to:
 }
 ```
 
-#### 6️⃣ Delete Task (Requires Authentication)
+##### 6️⃣ Delete Task (Requires Authentication)
 
 **Endpoint:** `DELETE /api/tasks/{taskId}`
 
@@ -334,19 +339,21 @@ This is a **real-time task management system** that allows users to:
 }
 ```
 
+---
+
 ## 📌 How to Run Locally?
 
 ### 1️⃣ Clone the Repository
 
-```sh
-git clone https://github.com/your-repository.git
-cd your-repository
+```bash
+git clone https://github.com/Devmangrani/Zocket-Assignement.git
+cd Zocket-Assignement
 ```
 
 ### 2️⃣ Backend Setup
 
-```sh
-cd backend
+```bash
+cd backend_Nodejs
 npm install
 ```
 
@@ -360,15 +367,30 @@ PORT=5000
 
 Run the server:
 
-```sh
+```bash
 node src/server.js
 ```
 
 ### 3️⃣ Frontend Setup
 
-```sh
+```bash
 cd frontend
 npm install
 npm run dev
 ```
-# Zocket-Assignement
+
+### 4️⃣ Access the Application
+
+Open your browser and navigate to:
+
+- **Frontend**: [Zocket Assignment Frontend](https://zocket-assignement-front-end.vercel.app/login)
+- **Backend**: [Zocket Assignment Backend](https://zocket-assignement-back-end.vercel.app/login)
+
+---
+
+## 👨‍💻 Developed By
+
+🚀 **Dev Mangrani**
+
+- GitHub: [@Devmangrani](https://github.com/Devmangrani)
+- LinkedIn: [Dev Mangrani](https://linkedin.com/in/devmangrani)

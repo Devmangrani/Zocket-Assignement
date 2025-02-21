@@ -31,5 +31,6 @@ func main() {
 	routes.AuthRoutes(r)
 	routes.TaskRoutes(r)
 
-	r.Run(":5003")
+	// Start the server
+	r.Run() // Vercel will handle the serverless function
 }
