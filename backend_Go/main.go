@@ -4,6 +4,8 @@ import (
 	"shivambackend/database"
 	"shivambackend/routes"
 
+	"net/http"
+
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
@@ -21,8 +23,13 @@ func main() {
 
 	r.Use(cors.New(config))
 
+	// Define the / route
+	r.GET("/", func(c *gin.Context) {
+		c.String(http.StatusOK, "Hello World")
+	})
+
 	routes.AuthRoutes(r)
 	routes.TaskRoutes(r)
 
-	r.Run(":5000")
+	r.Run(":5003")
 }
